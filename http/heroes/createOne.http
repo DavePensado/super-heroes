@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/heroes/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "nickname": "Superman",
+  "realName": "Clark J. Kent",
+  "originDescription": "Superman is a superhero who appears in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and debuted in the comic book Action Comics #1 (cover-dated June 1938 and published April 18, 1938).",
+  "power": ["flight", "x-ray vision", "superhuman strength", "heat vision"]
+}
